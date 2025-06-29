@@ -1,0 +1,3 @@
+CREATE DATABASE slots;
+CREATE DATABASE booking;
+CREATE DATABASE appointments;

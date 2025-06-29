@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    slots:
+      jdbc-url: jdbc:postgresql://localhost:5555/slots
+      username: postgres
+      password: postgres
+      driver-class-name: org.postgresql.Driver
+    booking:
+      jdbc-url: jdbc:postgresql://localhost:5555/booking
+      username: postgres
+      password: postgres
+      driver-class-name: org.postgresql.Driver
+    appointments:
+      jdbc-url: jdbc:postgresql://localhost:5555/appointments
+      username: postgres
+      password: postgres
+      driver-class-name: org.postgresql.Driver
+
+logging:
+  level:
+    shaimaa.clinic: DEBUG
